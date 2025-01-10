@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -27,4 +29,29 @@ body {
 .container > div.content {
   grid-area: content;
   background-color: #E2E8F0;
+}
+.sidebar-title {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  gap: 5px;
+  font-weight: bold;
+}
+.item{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.sidebar-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.spacer {
+  margin-top: 30px;
 }
