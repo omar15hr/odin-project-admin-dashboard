@@ -55,3 +55,73 @@ body {
 .spacer {
   margin-top: 30px;
 }
+.header-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.header-item {
+  flex: 60%;
+}
+.header-item2 {
+  flex: 40%;
+}
+.box-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 30px;
+}
+.box-item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.input-header {
+  background-color: #E2E8F0;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  width: 80%;
+}
+.header2-row {
+  display: flex;
+  flex-direction: row;
+}
+.header2-item {
+  flex: 60%;
+}
+.header2-item2 {
+  flex: 40%;
+}
+.header2-item-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-left: 30px;
+}
+.mini-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text-3 {
+  font-size: small;
+}
+.header2-item2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.button-box {
+  padding: 10px;
+  width: 80px;
+  border: none;
+  border-radius: 20px;
+  background-color: #1992d4;
+  color: white;
+}
